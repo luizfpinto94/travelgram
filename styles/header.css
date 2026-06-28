@@ -1,0 +1,36 @@
+header {
+    align-items: center;
+    display: flex;
+    font: var(--text-md); /* Correção feita aqui! */
+    justify-content: space-between;
+    padding-block: 32px;
+}
+
+#profile {
+    display: flex;
+    gap: 32px;
+}
+
+#profile > div {
+    width: 384px;
+}
+
+h1 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 16px;
+    width: 280px;
+}
+
+#info li {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
